@@ -78,7 +78,7 @@ export function Header() {
             <a href="https://github.com/agentropic"
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden sm:flex"
+              className="flex"
             >
               <Button variant="ghost" size="icon" aria-label="GitHub">
                 <Github className="h-5 w-5" />
