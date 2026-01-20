@@ -14,19 +14,22 @@ const docSections = [
     icon: Cpu,
     title: 'Architecture',
     description: 'Understand the modular polyrepo design and how components work together.',
-    href: '/docs/architecture',
+    // href: '/docs/architecture',
+    href: '#'
   },
   {
     icon: Code,
     title: 'API Reference',
     description: 'Complete API documentation for all public interfaces.',
-    href: '/docs/api',
+    // href: '/docs/api',
+    href: '#'
   },
   {
     icon: Network,
     title: 'Patterns',
     description: 'Explore organizational patterns like hierarchy, swarm, and market.',
-    href: '/crates/patterns',
+    // href: '/crates/patterns',
+    href: '#'
   },
 ];
 
