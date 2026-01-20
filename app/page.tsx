@@ -243,6 +243,7 @@ export default function Index() {
             </motion.div>
 
             <motion.div
+              className="w-[100%] place-self-center overflow-hidden"
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
