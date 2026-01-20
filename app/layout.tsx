@@ -142,7 +142,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ThemeProvider defaultTheme="system" storageKey="agentropic-theme">
+        <ThemeProvider defaultTheme="dark" storageKey="agentropic-theme">
           {children}
         </ThemeProvider>
       </body>
