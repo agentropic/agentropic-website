@@ -51,13 +51,13 @@ export const metadata: Metadata = {
   creator: "Agentropic Team",
   publisher: "Agentropic",
 
-  metadataBase: new URL("https://agentropic.xzy"),
+  metadataBase: new URL("https://agentropic.org"),
 
   // Open Graph (for social media sharing)
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://agentropic.xzy",
+    url: "https://agentropic.org",
     siteName: "Agentropic",
     title: "Agentropic - Agent-Oriented Programming in Rust",
     description:
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     title: "Agentropic - Agent-Oriented Programming in Rust",
     description:
       "Build intelligent, autonomous multi-agent systems with Rust. Production-ready framework for blockchain, trading, IoT, and enterprise.",
-    images: ["https://agentropic.xzy/assets/twitter-card-banner.png"],
+    images: ["https://agentropic.org/assets/twitter-card-banner.png"],
     creator: "@agentropic",
     site: "@agentropic",
   },
@@ -120,7 +120,7 @@ export const metadata: Metadata = {
 
   // Other
   alternates: {
-    canonical: "https://agentropic.xzy",
+    canonical: "https://agentropic.org",
   },
   category: "technology",
   classification: "Software Framework",
