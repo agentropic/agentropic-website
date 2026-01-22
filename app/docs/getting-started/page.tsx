@@ -105,14 +105,14 @@ export default function GettingStarted() {
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid w-[100%] overflow-scroll lg:grid-cols-[1fr_250px] gap-12">
+          <div className="lg:grid w-[100%] lg:grid-cols-[1fr_250px] gap-12">
             {/* Main content */}
             <MotionDiv
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <div className="max-w-3xl">
+              <div className="w-[90vw] md:max-w-3xl">
                 <h1 className="text-4xl font-bold mb-4">Getting Started</h1>
                 <p className="text-xl text-muted-foreground mb-8">
                   Learn how to build your first multi-agent system with Agentropic in just a few minutes.
