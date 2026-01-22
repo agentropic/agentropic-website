@@ -112,7 +112,7 @@ export default function GettingStarted() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <div className="w-[90vw] md:max-w-3xl">
+              <div className="w-[95vw] place-self-center md:max-w-3xl">
                 <h1 className="text-4xl font-bold mb-4">Getting Started</h1>
                 <p className="text-xl text-muted-foreground mb-8">
                   Learn how to build your first multi-agent system with Agentropic in just a few minutes.
