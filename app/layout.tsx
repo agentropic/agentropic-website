@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     title: "Agentropic - Agent-Oriented Programming in Rust",
     description:
       "Build intelligent, autonomous multi-agent systems with Rust. Production-ready framework for blockchain, trading, IoT, and enterprise.",
-    images: ["https://www.agentropic.org/assets/ag-logo.png"],
+    images: ["https://www.agentropic.org/assets/twitter-card.png"],
     creator: "@agentropic",
     site: "@agentropic",
   },
