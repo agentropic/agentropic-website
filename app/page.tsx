@@ -3,7 +3,7 @@ import Home from "./home-content";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "https://agentropic.org",
+    canonical: "https://www.agentropic.org/",
   },
 };
 

@@ -3,7 +3,7 @@ import Examples from './examples-content';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "https://agentropic.org/examples",
+    canonical: "https://www.agentropic.org/examples",
   },
 };
 

@@ -4,7 +4,7 @@ import Roadmap from "./roadmap-content";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "https://agentropic.org/roadmap",
+    canonical: "https://www.agentropic.org/roadmap",
   },
 };
 
