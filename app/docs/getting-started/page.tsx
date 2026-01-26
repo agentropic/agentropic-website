@@ -3,7 +3,7 @@ import GettingStarted from './getting-started-content';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "https://agentropic.org/docs/getting-started",
+    canonical: "https://www.agentropic.org/docs/getting-started",
   },
 }
 

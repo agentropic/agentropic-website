@@ -3,7 +3,7 @@ import Crates from "./crates-content";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "https://agentropic.org/crates",
+    canonical: "https://www.agentropic.org/crates",
   },
 };
 
