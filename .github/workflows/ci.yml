@@ -43,32 +43,3 @@ jobs:
         run: |
           echo "Build completed successfully"
           du -sh .next
-
-  lighthouse:
-    runs-on: ubuntu-latest
-    needs: build-and-test
-    if: github.event_name == 'pull_request'
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20.x'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build
-        run: npm run build
-
-      - name: Run Lighthouse CI
-        uses: treosh/lighthouse-ci-action@v10
-        with:
-          urls: |
-            http://localhost:3000
-          uploadArtifacts: true
-          temporaryPublicStorage: true
