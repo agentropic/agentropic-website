@@ -5,21 +5,21 @@ import Image from 'next/image';
 const footerLinks = {
   documentation: [
     { label: 'Getting Started', href: '/docs/getting-started' },
-    { label: 'Architecture', href: '/docs/architecture' },
-    { label: 'API Reference', href: '/docs/api' },
+    { label: 'Architecture', href: '/docs#' },
+    { label: 'API Reference', href: '/docs/#' },
     { label: 'Examples', href: '/examples' },
   ],
   crates: [
-    { label: 'agentropic-core', href: '/crates/core' },
-    { label: 'agentropic-messaging', href: '/crates/messaging' },
-    { label: 'agentropic-cognition', href: '/crates/cognition' },
-    { label: 'agentropic-patterns', href: '/crates/patterns' },
+    { label: 'agentropic-core', href: '/crates/#' },
+    { label: 'agentropic-messaging', href: '/crates/#' },
+    { label: 'agentropic-cognition', href: '/crates/#' },
+    { label: 'agentropic-patterns', href: '/crates/#' },
   ],
   community: [
     { label: 'GitHub', href: 'https://github.com/agentropic', external: true },
     { label: 'Twitter / X', href: 'https://x.com/agentropic', external: true },
-    { label: 'Contributing', href: '/contributing' },
-    { label: 'Code of Conduct', href: '/code-of-conduct' },
+    { label: 'Contributing', href: '/#' },
+    { label: 'Code of Conduct', href: '/#' },
   ],
 };
 
@@ -79,7 +79,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4 text-sm">Documentation</h3>
             <ul className="space-y-2">
               {footerLinks.documentation.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link
                     href={link.href}
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -96,7 +96,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4 text-sm">Crates</h3>
             <ul className="space-y-2">
               {footerLinks.crates.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link
                     href={link.href}
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors font-mono"
@@ -113,7 +113,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4 text-sm">Community</h3>
             <ul className="space-y-2">
               {footerLinks.community.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   {link.external ? (
                     <a
                       href={link.href}
