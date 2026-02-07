@@ -14,12 +14,14 @@ import {
   Github,
   CheckCircle2,
   Clock,
+  Copy, 
+  Check 
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Layout } from '@/components/layout/Layout';
 import { FeatureCard } from '@/components/FeatureCard';
 import { CodeBlock } from '@/components/CodeBlock';
-
+import { useState } from 'react';
 
 const features = [
   {
@@ -91,11 +93,21 @@ const roadmapItems = [
   { name: 'agentropic-deploy', status: 'planned' },
 ];
 
+const contractAddress = "000000000000000000000000000000000000000000pump";
+
 export default function Home() {
+const [copied, setCopied] = useState(false);
+
+const copyToClipboard = () => {
+  navigator.clipboard.writeText(contractAddress);
+  setCopied(true);
+  setTimeout(() => setCopied(false), 2000);
+};
+
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[100vh] flex items-center overflow-hidden">
         {/* Grid pattern background */}
         <div className="absolute inset-0 grid-pattern opacity-50" />
         <div className="absolute inset-0 hero-gradient" />
@@ -130,6 +142,26 @@ export default function Home() {
                 Build intelligent, autonomous multi-agent systems with Rust's safety guarantees.
                 Production-ready framework for the next generation of distributed AI.
               </p>
+
+            <div className="w-[95%] sm:w-auto bg-card/80 backdrop-blur-sm place-self-center mt-[2rem] md:mt-[1rem] rounded-xl p-4 py-2 mb-8 border border-border max-w-xl mx-auto lg:mx-0">
+              <p className="text-xs text-start text-muted-foreground mb-2 font-medium">Contract Address</p>
+              <div className="flex items-center gap-10">
+                <code className="flex-1 text-xs sm:text-sm font-mono text-foreground truncate">
+                  {contractAddress}
+                </code>
+                <button
+                  onClick={copyToClipboard}
+                  className="p-2 rounded-xl bg-primary/20 border-gray-300 border hover:bg-primary/30 transition-colors flex-shrink-0"
+                >
+                  {copied ? (
+                    <Check className="w-4 h-4 text-success" />
+                  ) : (
+                    <Copy className="w-4 h-4 text-dark" />
+                  )}
+                </button>
+              </div>
+            </div>
+
             </motion.div>
 
             <motion.div
