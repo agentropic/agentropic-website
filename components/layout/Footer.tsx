@@ -63,7 +63,7 @@ export function Footer() {
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="https://discord.gg/placeholder"
+                href="https://discord.gg/K3CcB6yUan"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
