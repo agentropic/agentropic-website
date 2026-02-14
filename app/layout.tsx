@@ -62,7 +62,7 @@ export const metadata: Metadata = {
       "Build intelligent, autonomous multi-agent systems with Rust. Production-ready framework for blockchain, trading, IoT, and enterprise automation.",
     images: [
       {
-        url: "/assets/ag-logo.png",  
+        url: "/assets/ag-logo.png",
         width: 1200,
         height: 630,
         alt: "Agentropic - Multi-Agent Systems Framework",
@@ -132,22 +132,8 @@ export default function RootLayout({
         <meta name="application-name" content="Agentropic" />
         <meta name="theme-color" content="#000000" />
         
-        {/* Telegram-specific Open Graph tags */}
+        {/* Telegram-specific tag (not covered by Next.js metadata export) */}
         <meta property="telegram:channel" content="@agentropic" />
-        <meta property="og:site_name" content="Agentropic" />
-        <meta
-          property="og:title"
-          content="Agentropic - Agent-Oriented Programming in Rust"
-        />
-        <meta
-          property="og:description"
-          content="Build intelligent, autonomous multi-agent systems with Rust. Production-ready framework for blockchain, trading, IoT, and enterprise automation."
-        />
-        <meta property="og:image" content="https://www.agentropic.org/assets/ag-logo.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:url" content="https://www.agentropic.org/" />
-        <meta property="og:type" content="website" />
         
         {/* JSON-LD Structured Data for Google */}
         <script
@@ -193,24 +179,6 @@ export default function RootLayout({
                 "https://github.com/agentropic",
                 "https://t.me/agentropic"
               ]
-            })
-          }}
-        />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "name": "Agentropic",
-              "url": "https://www.agentropic.org/",
-              "description": "Agent-Oriented Programming in Rust",
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://www.agentropic.org/search?q={search_term_string}",
-                "query-input": "required name=search_term_string"
-              }
             })
           }}
         />
