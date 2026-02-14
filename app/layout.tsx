@@ -175,7 +175,7 @@ export default function RootLayout({
               "logo": "https://www.agentropic.org/assets/ag-logo.png",
               "description": "Open-source Rust framework for building intelligent multi-agent systems",
               "sameAs": [
-                "https://x.com/agentropic",
+                "https://x.com/tm401z",
                 "https://github.com/agentropic",
                 "https://t.me/agentropic"
               ]

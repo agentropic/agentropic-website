@@ -17,7 +17,7 @@ const footerLinks = {
   ],
   community: [
     { label: 'GitHub', href: 'https://github.com/agentropic', external: true },
-    { label: 'Twitter / X', href: 'https://x.com/agentropic', external: true },
+    { label: 'Twitter / X', href: 'https://x.com/tm401z', external: true },
     { label: 'Contributing', href: '/#' },
     { label: 'Code of Conduct', href: '/#' },
   ],
@@ -54,7 +54,7 @@ export function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://x.com/agentropic"
+                href="https://x.com/tm401z"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
