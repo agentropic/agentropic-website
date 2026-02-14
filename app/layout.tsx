@@ -176,8 +176,7 @@ export default function RootLayout({
               "description": "Open-source Rust framework for building intelligent multi-agent systems",
               "sameAs": [
                 "https://x.com/tm401z",
-                "https://github.com/agentropic",
-                "https://t.me/agentropic"
+                "https://github.com/agentropic"
               ]
             })
           }}
