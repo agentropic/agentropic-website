@@ -10,11 +10,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const navItems = [
+  { label: 'Chat', href: '/chat' },
   { label: 'Docs', href: '/docs' },
   { label: 'Crates', href: '/crates' }, 
   { label: 'Examples', href: '/examples' },
   { label: 'Use Cases', href: '/use-cases' },
-  { label: 'Roadmap', href: '/roadmap' },
+  { label: 'Roadmap', href: '/roadmap' }
 ];
 
 export function Header() {
