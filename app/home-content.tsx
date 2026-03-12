@@ -143,7 +143,7 @@ const copyToClipboard = () => {
                 Production-ready framework for the next generation of distributed AI.
               </p>
 
-            <div className="w-[95%] sm:w-auto bg-card/80 backdrop-blur-sm place-self-center mt-[2rem] md:mt-[1rem] rounded-xl p-4 py-2 mb-8 border border-border max-w-xl mx-auto lg:mx-0">
+            {/* <div className="w-[95%] sm:w-auto bg-card/80 backdrop-blur-sm place-self-center mt-[2rem] md:mt-[1rem] rounded-xl p-4 py-2 mb-8 border border-border max-w-xl mx-auto lg:mx-0">
               <p className="text-xs text-start text-muted-foreground mb-2 font-medium">Contract Address</p>
               <div className="flex items-center gap-10">
                 <code className="flex-1 text-xs sm:text-sm font-mono text-foreground truncate">
@@ -160,7 +160,7 @@ const copyToClipboard = () => {
                   )}
                 </button>
               </div>
-            </div>
+            </div> */}
 
             </motion.div>
 
@@ -170,9 +170,9 @@ const copyToClipboard = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
             >
-              <Link href="/docs/getting-started">
+              <Link href="/chat">
                 <Button variant="hero" size="xl">
-                  Get Started
+                  Chat with Agent
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
