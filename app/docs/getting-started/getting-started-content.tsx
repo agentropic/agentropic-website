@@ -13,11 +13,11 @@ const tocItems = [
 
 const installCode = `# Add to your Cargo.toml
 [dependencies]
-agentropic-core = "0.1"
-agentropic-messaging = "0.1"
+z-core = "0.1"
+z-messaging = "0.1"
 tokio = { version = "1", features = ["full"] }`;
 
-const firstAgentCode = `use agentropic_core::prelude::*;
+const firstAgentCode = `use zeroicai_core::prelude::*;
 
 // Define your agent with a derive macro
 #[derive(Agent)]
@@ -54,7 +54,7 @@ pub struct GreetingMessage {
     pub recipient: String,
 }`;
 
-const messagingCode = `use agentropic_messaging::{Channel, Address};
+const messagingCode = `use zeroicai_messaging::{Channel, Address};
 
 #[tokio::main]
 async fn main() -> Result<()> {
@@ -115,7 +115,7 @@ export default function GettingStarted() {
               <div className="w-[92vw] place-self-center md:max-w-3xl">
                 <h1 className="text-4xl font-bold mb-4">Getting Started</h1>
                 <p className="text-xl text-muted-foreground mb-8">
-                  Learn how to build your first multi-agent system with Agentropic in just a few minutes.
+                  Learn how to build your first multi-agent system with ZeroicAI in just a few minutes.
                 </p>
 
                 {/* Installation */}
@@ -127,7 +127,7 @@ export default function GettingStarted() {
                     Installation
                   </h2>
                   <p className="text-muted-foreground mb-4">
-                    Add Agentropic to your Rust project by including the necessary crates in your{' '}
+                    Add ZeroicAI to your Rust project by including the necessary crates in your{' '}
                     <code className="px-1.5 py-0.5 rounded bg-muted font-mono text-sm">Cargo.toml</code>:
                   </p>
                   <CodeBlock code={installCode} language="toml" filename="Cargo.toml" showLineNumbers={false} />
@@ -177,7 +177,7 @@ export default function GettingStarted() {
                     <Link href="/docs/architecture" className="feature-card block">
                       <h3 className="font-semibold mb-2">Architecture Overview</h3>
                       <p className="text-sm text-muted-foreground mb-3">
-                        Understand how Agentropic's modular design works.
+                        Understand how ZeroicAI's modular design works.
                       </p>
                       <span className="text-sm text-primary font-medium flex items-center gap-1">
                         Learn more <ArrowRight className="h-4 w-4" />

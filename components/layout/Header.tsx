@@ -48,13 +48,13 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity">
             <Image 
-              src="/assets/logo.png" 
-              alt="Agentropic" 
+              src="/assets/favicon.ico" 
+              alt="ZeroicAI" 
               width={24}  
               height={24} 
               className="[filter:drop-shadow(0_0_1px_gray)_drop-shadow(0_0_1px_gray)] dark:[filter:none]" 
             />
-            <span className="font-bold text-xl tracking-tight">Agentropic</span>
+            <span className="font-bold text-xl tracking-tight">ZeroicAI</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -76,7 +76,7 @@ export function Header() {
           <div className="flex items-center gap-2">
             <ThemeToggle />
             
-            <a href="https://github.com/agentropic"
+            <a href="https://github.com/zeroicai"
               target="_blank"
               rel="noopener noreferrer"
               className="flex"
@@ -133,7 +133,7 @@ export function Header() {
               ))}
               <div className="flex items-center gap-2 pt-4 border-t">
                 
-                <a href="https://github.com/agentropic"
+                <a href="https://github.com/zeroicai"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

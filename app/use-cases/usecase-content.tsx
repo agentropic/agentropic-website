@@ -99,7 +99,7 @@ export default function UseCases() {
           >
             <h1 className="text-4xl font-bold mb-4">Use Cases</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Discover how Agentropic powers intelligent systems across industries.
+              Discover how ZeroicAI powers intelligent systems across industries.
             </p>
           </MotionDiv>
 

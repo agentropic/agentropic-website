@@ -3,7 +3,7 @@ import UseCases from './usecase-content';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "https://www.agentropic.org/use-case",
+    canonical: "https://www.zeroicai.org/use-case",
   },
 };
 

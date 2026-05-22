@@ -56,8 +56,8 @@ const features = [
   },
 ];
 
-const quickStartCode = `use agentropic_core::prelude::*;
-use agentropic_messaging::Channel;
+const quickStartCode = `use zeroicai_core::prelude::*;
+use zeroicai_messaging::Channel;
 
 #[derive(Agent)]
 struct MyAgent {
@@ -85,12 +85,12 @@ const stats = [
 ];
 
 const roadmapItems = [
-  { name: 'agentropic-core', status: 'done' },
-  { name: 'agentropic-messaging', status: 'done' },
-  { name: 'agentropic-cognition', status: 'in-progress' },
-  { name: 'agentropic-patterns', status: 'in-progress' },
-  { name: 'agentropic-runtime', status: 'planned' },
-  { name: 'agentropic-deploy', status: 'planned' },
+  { name: 'z-core', status: 'done' },
+  { name: 'z-messaging', status: 'done' },
+  { name: 'z-cognition', status: 'in-progress' },
+  { name: 'z-patterns', status: 'in-progress' },
+  { name: 'z-runtime', status: 'planned' },
+  { name: 'zeroicai-deploy', status: 'planned' },
 ];
 
 const contractAddress = "000000000000000000000000000000000000000000pump";
@@ -177,7 +177,7 @@ const copyToClipboard = () => {
                 </Button>
               </Link>
               <a
-                href="https://github.com/agentropic"
+                href="https://github.com/zeroicai"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -397,7 +397,7 @@ const copyToClipboard = () => {
                   </Button>
                 </Link>
                 <a
-                  href="https://github.com/agentropic"
+                  href="https://github.com/zeroicai"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

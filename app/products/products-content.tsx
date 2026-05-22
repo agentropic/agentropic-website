@@ -16,7 +16,7 @@ const products = [
     color: "text-green-400",
     bg: "bg-green-400/10",
     border: "border-green-400/20",
-    url: "https://cortex.agentropic.org",
+    url: "https://cortex.zeroicai.org",
     status: "soon",
   },
   {
@@ -28,7 +28,7 @@ const products = [
     color: "text-orange-400",
     bg: "bg-orange-400/10",
     border: "border-orange-400/20",
-    url: "https://arena.agentropic.org",
+    url: "https://arena.zeroicai.org",
     status: "soon",
   },
   {
@@ -40,7 +40,7 @@ const products = [
     color: "text-cyan-400",
     bg: "bg-cyan-400/10",
     border: "border-cyan-400/20",
-    url: "https://recall.agentropic.org",
+    url: "https://recall.zeroicai.org",
     status: "soon",
   },
   {
@@ -52,7 +52,7 @@ const products = [
     color: "text-blue-400",
     bg: "bg-blue-400/10",
     border: "border-blue-400/20",
-    url: "https://xbot.agentropic.org",
+    url: "https://xbot.zeroicai.org",
     status: "active",
   },
 ];
@@ -82,7 +82,7 @@ export function ProductsContent() {
             className="mb-12"
           >
             <h1 className="text-4xl font-bold mb-3">
-              Built with <span className="text-primary">Agentropic</span>
+              Built with <span className="text-primary">ZeroicAI</span>
             </h1>
             <p className="text-muted-foreground text-lg">
               Real applications powered by multi-agent coordination.
