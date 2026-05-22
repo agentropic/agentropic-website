@@ -59,7 +59,7 @@ export default function Docs() {
           >
             <h1 className="text-4xl font-bold mb-4">Documentation</h1>
             <p className="text-xl text-muted-foreground">
-              Everything you need to build multi-agent systems with Agentropic.
+              Everything you need to build multi-agent systems with ZeroicAI.
             </p>
           </MotionDiv>
 
