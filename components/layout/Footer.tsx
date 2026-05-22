@@ -31,13 +31,15 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <Image 
-                src="/assets/favicon.ico" 
-                alt="ZeroicAI"         
-                width={32} 
-                height={32} 
-                className="[filter:drop-shadow(0_0_1px_gray)_drop-shadow(0_0_1px_gray)] dark:[filter:none]"  
-              />
+              <span className="border border-gray-200">
+                <Image 
+                  src="/assets/logo-x.png" 
+                  alt="ZeroicAI"         
+                  width={32} 
+                  height={32} 
+                  className="[filter:drop-shadow(0_0_1px_gray)_drop-shadow(0_0_1px_gray)] dark:[filter:none]"  
+                />
+              </span>
               <span className="font-bold text-lg">ZeroicAI</span>
             </Link>
             <p className="text-sm text-muted-foreground mb-4">

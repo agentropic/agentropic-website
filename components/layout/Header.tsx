@@ -47,13 +47,15 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity">
-            <Image 
-              src="/assets/favicon.ico" 
-              alt="ZeroicAI" 
-              width={24}  
-              height={24} 
-              className="[filter:drop-shadow(0_0_1px_gray)_drop-shadow(0_0_1px_gray)] dark:[filter:none]" 
-            />
+              <span className="border border-gray-200">
+                <Image 
+                  src="/assets/logo-x.png" 
+                  alt="ZeroicAI" 
+                  width={24}  
+                  height={24} 
+                  className="[filter:drop-shadow(0_0_1px_gray)_drop-shadow(0_0_1px_gray)] dark:[filter:none]" 
+                />
+              </span>
             <span className="font-bold text-xl tracking-tight">ZeroicAI</span>
           </Link>
 
