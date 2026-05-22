@@ -14,70 +14,70 @@ interface RoadmapItem {
 
 const roadmapItems: RoadmapItem[] = [
   {
-    name: 'agentropic-core',
+    name: 'z-core',
     version: '0.1.0',
     status: 'done',
     description: 'Core agent primitives and lifecycle management',
     features: ['Agent trait', 'Derive macros', 'Lifecycle hooks', 'State management'],
   },
   {
-    name: 'agentropic-messaging',
+    name: 'z-messaging',
     version: '0.1.0',
     status: 'done',
     description: 'Type-safe async message passing',
     features: ['Typed channels', 'Address system', 'Async/await', 'Serialization'],
   },
   {
-    name: 'agentropic-macros',
+    name: 'zeroicai-macros',
     version: '0.1.0',
     status: 'done',
     description: 'Procedural macros for ergonomic APIs',
     features: ['Agent derive', 'Message derive', 'Handler macros'],
   },
   {
-    name: 'agentropic-cognition',
+    name: 'z-cognition',
     version: '0.1.0-beta',
     status: 'in-progress',
     description: 'BDI cognitive architecture',
     features: ['Beliefs', 'Desires', 'Intentions', 'Plan library', 'Goal reasoning'],
   },
   {
-    name: 'agentropic-patterns',
+    name: 'z-patterns',
     version: '0.1.0-beta',
     status: 'in-progress',
     description: 'Organizational patterns for multi-agent coordination',
     features: ['Hierarchy', 'Swarm', 'Market', 'Coalition', 'Holarchy', 'Federation', 'Blackboard', 'Team'],
   },
   {
-    name: 'agentropic-runtime',
+    name: 'z-runtime',
     version: '0.1.0',
     status: 'planned',
     description: 'Async execution engine with supervision',
     features: ['Tokio integration', 'Supervision trees', 'Fault tolerance', 'Scheduling'],
   },
   {
-    name: 'agentropic-deploy',
+    name: 'zeroicai-deploy',
     version: '0.1.0',
     status: 'planned',
     description: 'Deployment and orchestration tools',
     features: ['Docker support', 'Kubernetes operators', 'Monitoring', 'Distributed deployment'],
   },
   {
-    name: 'agentropic-tools',
+    name: 'zeroicai-tools',
     version: '0.1.0',
     status: 'planned',
     description: 'Development and debugging utilities',
     features: ['Visual debugger', 'Message inspector', 'Performance profiler', 'Test harness'],
   },
   {
-    name: 'agentropic-storage',
+    name: 'zeroicai-storage',
     version: '0.1.0',
     status: 'planned',
     description: 'Persistence and state management',
     features: ['Agent state persistence', 'Event sourcing', 'Snapshot support'],
   },
   {
-    name: 'agentropic-network',
+    name: 'zeroicai-network',
     version: '0.1.0',
     status: 'planned',
     description: 'Distributed agent networking',
@@ -121,7 +121,7 @@ export default function Roadmap() {
           >
             <h1 className="text-4xl font-bold mb-4">Roadmap</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-              Track our progress as we build the complete Agentropic framework.
+              Track our progress as we build the complete ZeroicAI framework.
             </p>
 
             {/* Progress overview */}
@@ -219,7 +219,7 @@ export default function Roadmap() {
             <p className="text-muted-foreground mb-4">
               Want to contribute to the roadmap? We welcome contributions!
             </p>
-            <a href="https://github.com/agentropic" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/zeroicai" target="_blank" rel="noopener noreferrer">
               <Button variant="outline">
                 <Github className="mr-2 h-4 w-4" />
                 Contribute on GitHub
