@@ -14,56 +14,56 @@ interface CrateInfo {
 
 const crates: CrateInfo[] = [
   {
-    name: 'agentropic-core',
+    name: 'z-core',
     description: 'Core agent primitives, lifecycle management, and capability system. The foundation for all agents.',
     status: 'stable',
     features: ['Agent derive macro', 'Lifecycle hooks', 'Capability system', 'State management'],
     href: '/crates/core',
   },
   {
-    name: 'agentropic-messaging',
+    name: 'z-messaging',
     description: 'Type-safe async message passing with channels, addresses, and serialization support.',
     status: 'stable',
     features: ['Typed channels', 'Async/await', 'Address system', 'Serialization'],
     href: '/crates/messaging',
   },
   {
-    name: 'agentropic-cognition',
+    name: 'z-cognition',
     description: 'BDI cognitive architecture with beliefs, desires, intentions, plan libraries, and reasoning.',
     status: 'beta',
     features: ['BDI model', 'Plan library', 'Goal reasoning', 'Deliberation'],
     href: '/crates/cognition',
   },
   {
-    name: 'agentropic-patterns',
+    name: 'z-patterns',
     description: 'Organizational patterns for multi-agent coordination: hierarchy, swarm, market, coalition, and more.',
     status: 'beta',
     features: ['Hierarchy', 'Swarm', 'Market', 'Coalition', 'Holarchy', 'Blackboard'],
     href: '/crates/patterns',
   },
   {
-    name: 'agentropic-runtime',
+    name: 'z-runtime',
     description: 'Async execution engine built on Tokio. Handles agent scheduling, supervision, and fault tolerance.',
     status: 'coming-soon',
     features: ['Tokio runtime', 'Supervision', 'Scheduling', 'Fault tolerance'],
     href: '/crates/runtime',
   },
   {
-    name: 'agentropic-deploy',
+    name: 'zeroicai-deploy',
     description: 'Deployment utilities for containerization, orchestration, and distributed systems.',
     status: 'coming-soon',
     features: ['Docker', 'Kubernetes', 'Distributed', 'Monitoring'],
     href: '/crates/deploy',
   },
   {
-    name: 'agentropic-tools',
+    name: 'zeroicai-tools',
     description: 'Development tools including debugging, visualization, and testing utilities.',
     status: 'coming-soon',
     features: ['Debugger', 'Visualizer', 'Testing', 'Benchmarks'],
     href: '/crates/tools',
   },
   {
-    name: 'agentropic-macros',
+    name: 'zeroicai-macros',
     description: 'Procedural macros for agent definition, message types, and pattern implementation.',
     status: 'stable',
     features: ['Agent derive', 'Message derive', 'Pattern macros'],
@@ -97,7 +97,7 @@ export default function Crates() {
           >
             <h1 className="text-4xl font-bold mb-4">Crates</h1>
             <p className="text-xl text-start text-muted-foreground max-w-2xl mx-auto">
-              Agentropic is built as a polyrepo of independent crates. Use only what you need,
+              ZeroicAI is built as a polyrepo of independent crates. Use only what you need,
               or combine them for a complete multi-agent framework.
             </p>
           </MotionDiv>
